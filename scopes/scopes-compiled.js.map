@@ -1,0 +1,1 @@
+{"version":3,"sources":["scopes.js"],"names":[],"mappings":";;AAAA,SAAS,IAAT,GAAiB;AAChB,KAAI,IAAI,CAAR;AACA,KAAI,CAAJ,EAAO;AACL,MAAM,IAAI,CAAV;AACD;AACD;;AAED,SAAS,gBAAT,CAA0B,OAA1B,EAAmC,IAAnC","file":"scopes-compiled.js","sourcesContent":["function test () {\n\tlet a = 1;\n\tif (a) {\n\t  const b = 2;\n\t}\n}\n\ndocument.addEventListener('click', test);"]}
